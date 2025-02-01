@@ -1,6 +1,8 @@
 "use client";
-
-const MyAudio = ({ src, text }: any) => {
+interface MyAudioProps{
+  src:string
+}
+const MyAudio :React.FC<MyAudioProps> = ({ src }) => {
   return (
     <div>
     

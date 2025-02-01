@@ -1,11 +1,13 @@
 import Image from 'next/image'
 import React from 'react'
-
-const MyImage = ({src}:any) => {
+interface MyImageProps{
+src:string
+}
+const MyImage :React.FC<MyImageProps> = ({src}) => {
   return (
    
      <div className=' border shadow-lg'>
-     <Image src={src} width={600} height={400} alt="iamge" className='w-full h-full object-cover'  />
+     <Image src={src} width={900} height={800} alt="iamge" className='w-full h-full object-cover'  />
      </div>
    
   )

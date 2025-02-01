@@ -1,7 +1,5 @@
 import React from "react";
-import MyAudio from "@/components/audio";
 import MyImage from "@/components/image";
-
 const page = () => {
   return (
     // C5-L3-A3a
