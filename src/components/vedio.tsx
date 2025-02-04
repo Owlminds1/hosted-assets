@@ -5,7 +5,7 @@ interface MyVideoProps {
 const MyVedio: React.FC<MyVideoProps> = ({src}) => {
   return (
    
-     <div className='h-[400px] w-[600px] border shadow-lg'>
+     <div className='h-[700px] w-[700px] border shadow-lg'>
      <video src={src} autoPlay   controls  className='w-full h-full object-cover'  />
      </div>
    

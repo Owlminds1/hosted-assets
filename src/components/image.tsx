@@ -6,8 +6,8 @@ src:string
 const MyImage :React.FC<MyImageProps> = ({src}) => {
   return (
    
-     <div className=' border shadow-lg'>
-     <Image src={src} width={900} height={800} alt="iamge" className='w-full h-full object-cover'  />
+     <div className=' border shadow-lg w-[900px] h-[850px] relative '>
+     <Image src={src} fill alt="iamge" className=' w-full h-full object-fill '  />
      </div>
    
   )
