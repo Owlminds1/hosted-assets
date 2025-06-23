@@ -5,7 +5,7 @@ const page = () => {
   return (
     // C1-L2-RF2
     <div className="min-h-screen bg-slate-50 flex items-center justify-center">
-      <MyAudio src="/audio/C1-L2-RF2.mp3" />
+      <MyAudio src="/audio/L2C1IB.mp3" />
     </div>
   );
 };
