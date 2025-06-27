@@ -1,0 +1,48 @@
+[
+    {
+        "tasks":"Water bottle",
+        "value":"Must-have"
+
+    },
+    {
+        "tasks":"First-aid kit",
+        "value":"Must-have"
+    },
+    
+    {
+        "tasks":"Sketchbook and pencil",
+        "value":"Can-Skip"
+    },{
+        "tasks":"Flip-flops or sandals",
+        "value":"Good-to-have"
+    },
+    {
+        "tasks":"Snacks",
+        "value":"Must-have"
+    },
+    {
+        "tasks":"Travel game or book",
+        "value":"Can-Skip"
+    },
+    {
+        "tasks":"Bug Spray",
+        "value":"Can-Skip"
+    },
+    {
+        "tasks":"Beach umbrella",
+        "value":"Can-Skip"
+    },
+    {
+        "tasks":"Swimsuit",
+        "value":"Must-have"
+    },
+    {
+        "tasks":"Volleyball",
+        "value":"Good-to-have"
+    },
+    {
+        "tasks":"Hat and sunglasses",
+        "value":"Good-to-have"
+    }
+
+]

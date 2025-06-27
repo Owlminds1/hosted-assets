@@ -1,5 +1,5 @@
 "use client";
-import taskData from "@/layout-task-sorting-puzzle/taskData.json";
+import taskData from "@/layout-task-sorting-puzzle-2/taskData.json";
 
 
 const Tasks = ({ tasks }: { tasks: typeof taskData }) => {

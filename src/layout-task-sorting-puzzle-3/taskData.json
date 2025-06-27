@@ -1,0 +1,42 @@
+[
+    {
+        "tasks":"Bath",
+        "value":"urgent-important"
+
+    },
+    {
+        "tasks":"Play outside",
+        "value":"not-urgent-important"
+    },
+    {
+        "tasks":"Pack backpack",
+        "value":"not-urgent-important"
+    },
+    {
+        "tasks":"Eat",
+        "value":"urgent-important"
+    },
+    {
+        "tasks":"Chores",
+        "value":"not-urgent-important"
+    },
+    {
+        "tasks":"Study",
+        "value":"urgent-important"
+    },
+    {
+        "tasks":"Watch Favorite Show",
+        "value":"not-urgent-not-important"
+    },
+    {
+        "tasks":"Play Games on mobile or console",
+        "value":"not-urgent-not-important"
+    },{
+        "tasks":"Go to School",
+        "value":"urgent-important"
+    },{
+        "tasks":"Make space for new toy",
+        "value":"urgent-not-important"
+    }
+
+]

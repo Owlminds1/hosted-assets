@@ -1,11 +1,11 @@
 "use client";
-import taskData from "@/layout-task-sorting-puzzle/taskData.json";
+import taskData from "@/layout-task-sorting-puzzle-2/taskData.json";
 import React, { useState } from "react";
 import Confetti from "react-confetti";
 import Tasks from "./task";
 import Quadrants from "./quadrants";
 
-const LayoutTaskSortingPuzzle = () => {
+const LayoutTaskSortingPuzzle2 = () => {
   const [isCorrect, setIsCorrect] = useState(false);
   const [confetti, setCofetti] = useState(false);
   const [massege, setMassege] = useState("");
@@ -53,4 +53,4 @@ const LayoutTaskSortingPuzzle = () => {
   );
 };
 
-export default LayoutTaskSortingPuzzle;
+export default LayoutTaskSortingPuzzle2;

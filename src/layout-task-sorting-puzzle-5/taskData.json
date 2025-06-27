@@ -1,0 +1,38 @@
+[
+    {
+        "tasks":"Eat food on time",
+        "value":"urgent-important"
+
+    },
+    {
+        "tasks":"Homework",
+        "value":"important-not-urgent"
+    },
+    {
+        "tasks":"Study/school time",
+        "value":"urgent-important"
+    },
+    {
+        "tasks":"Bedtime",
+        "value":"urgent-important"
+    },
+    {
+        "tasks":"Chores",
+        "value":"important-not-urgent"
+    },
+    {
+        "tasks":"Creative time/Play outside",
+        "value":"important-not-urgent"
+    },
+    {
+        "tasks":"Prepare for next day",
+        "value":"not-urgent-important"
+    },
+    {
+        "tasks":"Do some exercise",
+        "value":"not-urgent-important"
+    }, {
+        "tasks":"Screen time",
+        "value":"not-urgent-not-important"
+    }
+]

@@ -1,16 +1,16 @@
 "use client";
-import taskData from "@/layout-task-sorting-puzzle/taskData.json";
+
 import React, { useState } from "react";
 import Confetti from "react-confetti";
+import taskData from "@/layout-task-sorting-puzzle-5/taskData.json";
 import Tasks from "./task";
 import Quadrants from "./quadrants";
 
-const LayoutTaskSortingPuzzle = () => {
+const Page = () => {
   const [isCorrect, setIsCorrect] = useState(false);
   const [confetti, setCofetti] = useState(false);
   const [massege, setMassege] = useState("");
-  const [remainingTasks, setRemainingTasks] = useState(taskData);
-
+  const [availbleTask,setAvailbleTask]= useState(taskData)
   const handleCheck = () => {
     //  setIsCorrect(isCorrect)
     if (isCorrect) {
@@ -38,14 +38,10 @@ const LayoutTaskSortingPuzzle = () => {
       </div>
       <div className=" grid grid-cols-12 place-items-center  w-full px-8">
         <div className="col-span-3 w-full">
-          <Tasks tasks={remainingTasks} />
+          <Tasks availbleTask={availbleTask} />
         </div>
         <div className="col-span-9 ">
-          <Quadrants
-            setIsCorrect={setIsCorrect}
-            remainingTasks={remainingTasks}
-            setRemainingTasks={setRemainingTasks}
-          />
+          <Quadrants setIsCorrect={setIsCorrect} availbleTask={availbleTask} setAvailbleTask={setAvailbleTask} />
         </div>
       </div>
       {confetti ? <Confetti className="w-full h-screen" /> : ""}
@@ -53,4 +49,4 @@ const LayoutTaskSortingPuzzle = () => {
   );
 };
 
-export default LayoutTaskSortingPuzzle;
+export default Page;

@@ -1,0 +1,35 @@
+[
+    {
+        "tasks":"Practise for the upcoming tournament",
+        "value":"not-urgent-important"
+
+    },
+    {
+        "tasks":"Water plants",
+        "value":"urgent-important"
+    },
+    {
+        "tasks":"Pack backpack one day before school",
+        "value":"urgent-not-important"
+    },
+    {
+        "tasks":"Take vaccination",
+        "value":"urgent-important"
+    },
+    {
+        "tasks":"Visit museum",
+        "value":"not-urgent-important"
+    },
+    {
+        "tasks":"Study for test",
+        "value":"urgent-important"
+    },
+    {
+        "tasks":"Eat food when hungry",
+        "value":"urgent-important"
+    },
+    {
+        "tasks":"Enjoy a pizza at your favourite restaurant",
+        "value":"not-urgent-not-important"
+    }
+]
