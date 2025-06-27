@@ -1,0 +1,39 @@
+
+[ 
+    { 
+        "id":"1",
+         "Name":"Eat Dinner",
+         "images":"/Bedtime-Routine/images/alarm-clock.png"
+     },
+    { 
+        "id":"2",
+         "Name":"Take Bath",
+         "images":"/Bedtime-Routine/images/take_bath.webp"
+     },
+     { 
+        "id":"3", 
+        "Name":"Put on Pajamas",
+        "images":"/Bedtime-Routine/images/put_Pajamas.png"
+
+     }, 
+
+     { 
+
+     "id":"4",
+      "Name":"Brush Teeth",
+      "images":"/Bedtime-Routine/images/brush.png"
+      
+    }, 
+     { 
+
+     "id":"5",
+      "Name":"Read story",
+      "images":"/Bedtime-Routine/images/story.png"
+      },
+    { 
+        "id":"6",
+         "Name":"Go to sleep",
+         "images":"/Bedtime-Routine/images/go_sleep.png"
+ 
+     }
+     ]
