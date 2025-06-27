@@ -1,0 +1,35 @@
+[
+    {
+        "tasks":"Feed the hungry animals",
+        "value":"urgent-important"
+
+    },
+    {
+        "tasks":"Refill water bowls",
+        "value":"urgent-important"
+    },
+    {
+        "tasks":"Clean the cages",
+        "value":"important-not-urgent"
+    },
+    {
+        "tasks":"Sort donations",
+        "value":"important-not-urgent"
+    },
+    {
+        "tasks":"Play with the animals",
+        "value":"not-urgent-important"
+    },
+    {
+        "tasks":"Sweep the shelter floor",
+        "value":"not-urgent-important"
+    },
+    {
+        "tasks":"Put up adoption posters",
+        "value":"not-urgent-important"
+    },
+    {
+        "tasks":"Decorate the shelter with balloons",
+        "value":"not-urgent-not-important"
+    }
+]

@@ -1,0 +1,30 @@
+[
+    {
+        "task":"I am afraid of making mistakes",
+        "matchinId":1
+    },
+    {
+        "task":"I can't do this",
+        "matchinId":2
+    },
+    {
+        "task":"I don't know how.",
+        "matchinId":3
+    },
+    {
+        "task":"I am not good at this",
+        "matchinId":4
+    },
+    {
+        "task":"I give up if I fail",
+        "matchinId":5
+    },
+    {
+        "task":"I already know it all",
+        "matchinId":6
+    },
+    {
+        "task":"This is too difficult",
+        "matchinId":7
+    }
+]
