@@ -1,0 +1,18 @@
+[
+    {
+        "title": "Angry",
+        "id": "angry"
+    },
+    {
+        "title": "Happy",
+        "id": "happy"
+    },
+    {
+        "title": "Sad",
+        "id": "sad"
+    },
+    {
+        "title": "Surprised",
+        "id": "surprised"
+    }
+]

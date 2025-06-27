@@ -1,0 +1,76 @@
+[
+    {
+        "name":"Content",
+        "val":"happy"
+    },
+    {
+        "name":"Powerful",
+        "val":"happy"
+    },
+     {
+        "name":"Interested",
+        "val":"happy"
+    },
+    
+    {
+        "name":"Proud",
+        "val":"happy"
+    },
+    
+    {
+        "name":"Lonely",
+        "val":"sad"
+    },
+    
+    {
+        "name":"Hurt",
+        "val":"sad"
+    },
+    {
+        "name":"Grief",
+        "val":"sad"
+    },
+      {
+        "name":"Ashamed",
+        "val":"sad"
+    },
+    
+    {
+        "name":"Mad",
+        "val":"angry"
+    },
+    
+    {
+        "name":"Frustrated",
+        "val":"angry"
+    },
+    
+    {
+        "name":"Jealous",
+        "val":"angry"
+    },
+    
+    {
+        "name":"Disrespected",
+        "val":"angry"
+    } ,
+    
+    {
+        "name":"Shocked",
+        "val":"surprised"
+    },
+    {
+        "name":"Amazed",
+        "val":"surprised"
+    },
+    
+    {
+        "name":"Excited",
+        "val":"surprised"
+    },
+    {
+        "name":"Eager",
+        "val":"surprised"
+    }
+
+]

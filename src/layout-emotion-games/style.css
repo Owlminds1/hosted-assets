@@ -1,0 +1,182 @@
+.start-btn {
+  padding: 10px 20px;
+  font-size: 1.2em;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+@media screen and (max-width: 768px) {
+  .start-btn {
+    padding: 5px 10px;
+    font-size: 0.8em;
+  }
+}
+
+.start-btn:hover {
+  background-color: #45a049;
+}
+
+#timer {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  display: none;
+}
+
+#game-status {
+  font-size: 1.5em;
+  margin: 10px 0;
+  color: #333;
+}
+
+#quadrants-container {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  #quadrants-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+.quadrant {
+  padding: 25px;
+  padding-top: 5px;
+  border-radius: 10px;
+  color: Black;
+  position: relative;
+  text-align: center;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-weight:bold ;
+}
+
+#happy {
+  background-color: rgba(255, 234, 0, 0.7);
+  background-image: url("/emotion-game/image/happy.jpg");
+}
+
+#sad {
+  background-color: rgba(137, 207, 240, 0.7);
+  background-image: url("/emotion-game/image/sad.jpg");
+}
+
+#angry {
+  background-color: rgba(227, 66, 52, 0.8);
+  background-image: url("/emotion-game/image/red.jpg");
+}
+
+#surprised {
+  background-color: rgba(95, 255, 31, 0.7);
+  background-image: url("/emotion-game/image/surpised.jpg");
+}
+
+.slots {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 20px;
+  place-items: center;
+}
+
+.slot {
+  width: 100px;
+  height: 40px;
+  gap: 10px;
+  border: 2px dashed rgba(255, 255, 255, 0.7);
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#tiles-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.tile {
+  padding: 10px 20px;
+  background-color: lightgray;
+  color: black;
+  border-radius: 5px;
+  cursor: grab;
+  font-size: 1em;
+  transition: transform 0.2s;
+}
+
+.tile:active {
+  cursor: grabbing;
+  transform: scale(1.1);
+}
+@media screen and (max-width: 768px) {
+  .tile {
+    padding: 2px 10px;
+    background-color: lightgray;
+    color: black;
+    border-radius: 5px;
+    cursor: grab;
+    font-size: 0.8em;
+    transition: transform 0.2s;
+  }
+  #quadrants-container::after {
+    display: none;
+  }
+  #quadrants-container::before {
+    display: none;
+  }
+}
+/* for lines ========== */
+#quadrants-container::after {
+  content: "";
+  position: absolute;
+  width: 1px;
+  height: 100%;
+  background-color: black;
+  top: 0;
+  left: -10px;
+}
+
+#quadrants-container::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  background-color: black;
+  bottom: -10px;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#side-text {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+  text-transform: capitalize;
+}
+
+.energy {
+  top: 50%;
+  left: -30px;
+  writing-mode: vertical-lr;
+}
+
+.pleasantness {
+  bottom: -70px;
+  left: 50%;
+}
