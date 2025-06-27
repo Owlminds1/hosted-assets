@@ -183,5 +183,9 @@
     
     {
         "page": "emotion-games"
+    } ,
+    
+    {
+        "page": "mood-meter"
     }
 ]

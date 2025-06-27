@@ -1,0 +1,42 @@
+[
+    {
+      "mood": "Happy, Calm, Content",
+      "height": 0,
+      "text": "Happy, Calm, Content",
+      "emoji":
+        "https://img.freepik.com/free-vector/gradient-retro-smiley-emoji-illustration_23-2151050778.jpg?t=st=1731930846~exp=1731934446~hmac=5bd2ed8806d324418013141e0ffcab7220b271f8bdfa3ffb68694fc2fae2537d&w=740",
+      "color": "#50C878"
+    }, 
+    {
+      "mood": "Sad, Bored",
+      "height": 60,
+      "text": "Sad, Bored",
+      "emoji":
+        "https://img.freepik.com/free-vector/hurt-face-emoji-illustration_52683-162029.jpg?t=st=1731930961~exp=1731934561~hmac=15085d61496cefc665a426cab4ba746367058bcea81e2f452de2dd86f32c9e3a&w=740",
+      "color": "#89CFF0"
+    }, 
+    {
+      "mood": "Scared, Anxious, Unsettled",
+      "height": 120,
+      "text": "Scared, Anxious, Unsettled",
+      "emoji":
+        "https://img.freepik.com/free-vector/gradient-shocked-emoji-illustration_23-2150740271.jpg?t=st=1731931001~exp=1731934601~hmac=46882a5d67c3fdc7bcc792841717070750b67480643f319fab68fc79ee634919&w=740",
+      "color": "#FDDA0D"
+    },
+    {
+      "mood": "Frustrated",
+      "height": 180,
+      "text": "Frustrated",
+      "emoji":
+        "https://img.freepik.com/free-vector/gradient-hate-emoji-illustration_23-2151081714.jpg?t=st=1731931048~exp=1731934648~hmac=c14c275d20a713f28f0ebe18e8eff9748263a1cf900b466522701233f19f4020&w=740",
+      "color": "#FF8C00"
+    },
+    {
+      "mood": "Mad, Angry, Explosive",
+      "height": 300,
+      "text": "Mad, Angry, Explosive",
+      "emoji":
+        "https://img.freepik.com/free-vector/hate-emoji-illustration_23-2151063087.jpg?t=st=1731931092~exp=1731934692~hmac=05c9e52f6a0df38ffcb94b630ed0b0eb76686f86edfbab76803529219a9b9bd4&w=740",
+      "color": "#FF4D4D"
+    }
+  ]
