@@ -1,0 +1,39 @@
+[
+    {
+      "Image1": "/Would-you-rather-2/SlideImg/live_on_mars.avif",
+      "Image2": "/Would-you-rather-2/SlideImg/live-on-moon.avif",
+      "firstHeading":"Live on  mars",
+      "SecoundHeading":"Live on  moon"
+  
+    },
+  
+    {
+      "Image1": "/Would-you-rather-2/SlideImg/explore-the-sky.avif",
+      "Image2": "/Would-you-rather-2/SlideImg/explore-the-sea.jpg",
+      "firstHeading":"Explore the sky",
+      "SecoundHeading":"Explore the sea"
+  
+    },
+  
+    {
+      "Image1": "/Would-you-rather-2/SlideImg/play-outside.avif",
+      "Image2": "/Would-you-rather-2/SlideImg/watch-tv.avif",
+      "firstHeading":"Play outside",
+      "SecoundHeading":"Watch TV"
+  
+    },
+    {
+      "Image1": "/Would-you-rather-2/SlideImg/drink-water.avif",
+      "Image2": "/Would-you-rather-2/SlideImg/drink-sada.avif",
+      "firstHeading":"Drink water when thirsty",
+      "SecoundHeading":"Drink soda when thirsty"
+  
+    },
+    {
+      "Image1": "/Would-you-rather-2/SlideImg/ballon.avif",
+      "Image2": "/Would-you-rather-2/SlideImg/carpet.jpg",
+      "firstHeading":"Get in a hot air balloon",
+      "SecoundHeading":"Get on a magic carpet"
+  
+    }
+  ]

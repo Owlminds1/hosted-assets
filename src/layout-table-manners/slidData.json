@@ -1,0 +1,41 @@
+[
+    {
+        "image":"/table-manners/images/firstSlide.jpg",
+        "text":"Take small bites of food."
+    },
+    {
+       
+        "image":"/table-manners/images/secoundSlide.jpg",
+        "text":"Chew with your mouth open. "
+    },
+    {
+       
+        "image":"/table-manners/images/thirdSlide.jpg",
+        "text":"Wash your hands before eating."
+    },
+    {
+       
+        "image":"/table-manners/images/fourthSlid.jpg",
+        "text":"Talk with your mouth full."
+    },
+    {
+       
+        "image":"/table-manners/images/fifthSlide.jpg",
+        "text":"Wait until you’re done chewing to sip your drink."
+    },
+    {
+       
+        "image":"/table-manners/images/sixethSlide.jpg",
+        "text":"Reaching across the table to grab the salt."
+    },
+    {
+       
+        "image":"/table-manners/images/seventhSlide.webp",
+        "text":"Slurping as you drink juice."
+    },
+    {
+       
+        "image":"/table-manners/images/eightSlide.jpg",
+        "text":"Keeping all screens away while eating."
+    }
+]

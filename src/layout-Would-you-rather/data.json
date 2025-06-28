@@ -1,0 +1,45 @@
+[
+    {
+      "Image1": "/Would-you-rather/SlideImg/be_Storng.avif",
+      "Image2": "/Would-you-rather/SlideImg/be_fast.avif",
+      "firstHeading":"Be strong!",
+      "SecoundHeading":"Be fast!"
+  
+    },
+  
+    {
+      "Image1": "/Would-you-rather/SlideImg/time-machine.jpg",
+      "Image2": "/Would-you-rather/SlideImg/teleporter.jpg",
+      "firstHeading":"Have time machine. ",
+      "SecoundHeading":"Have teleporter"
+  
+    },
+  
+    {
+      "Image1": "/Would-you-rather/SlideImg/dream.jpg",
+      "Image2": "/Would-you-rather/SlideImg/do-everything.jpg",
+      "firstHeading":"Be in your dream.",
+      "SecoundHeading":"Do everything you ever wanted."
+  
+    }, {
+      "Image1": "/Would-you-rather/SlideImg/summer.jpg",
+      "Image2": "/Would-you-rather/SlideImg/winter.avif",
+      "firstHeading":"Want summer all year.",
+      "SecoundHeading":"Want winter all year."
+  
+    },
+    {
+      "Image1": "/Would-you-rather/SlideImg/happy.jpg",
+      "Image2": "/Would-you-rather/SlideImg/popular.jpg",
+      "firstHeading":"Be happy!.",
+      "SecoundHeading":"Be popular."
+  
+    },
+    {
+      "Image1": "/Would-you-rather/SlideImg/space.jpg",
+      "Image2": "/Would-you-rather/SlideImg/north_pol.jpg",
+      "firstHeading":"Go to space.",
+      "SecoundHeading":"Go to the North pole."
+  
+    }
+  ]

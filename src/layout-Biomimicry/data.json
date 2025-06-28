@@ -1,0 +1,44 @@
+[
+    {
+      "Image1": "/Biomimicry/SlideImg/bat.png",
+      "Image2": "/Biomimicry/SlideImg/dron.jpg",
+  
+      "firstHeading": "Bat",
+      "SecoundHeading": "Drone"
+  
+    },
+  
+    {
+      "Image1": "/Biomimicry/SlideImg/lotus.jpg",
+      "Image2": "/Biomimicry/SlideImg/art.jpg",
+      "firstHeading": "Lotus leaf",
+      "SecoundHeading": "Dirt repelling paint"
+  
+    },
+  
+    {
+      "Image1": "/Biomimicry/SlideImg/dog_with_burs.webp",
+      "Image2": "/Biomimicry/SlideImg/shoes_with_velcro.webp",
+  
+      "firstHeading": "Burr seeds ",
+      "SecoundHeading": "Velcro"
+  
+    },
+    {
+      "Image1": "/Biomimicry/SlideImg/gecko.jpg",
+      "Image2": "/Biomimicry/SlideImg/Adhesive.jpg",
+  
+      "firstHeading": "Gecko ",
+      "SecoundHeading": "Adhesive"
+  
+    },
+    {
+      "Image1": "/Biomimicry/SlideImg/woodpecker.jpg",
+      "Image2": "/Biomimicry/SlideImg/helmet.webp",
+  
+      "firstHeading": "Woodpecker ",
+      "SecoundHeading": "Football helmet"
+  
+    }
+  ]
+  

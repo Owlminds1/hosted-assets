@@ -1,0 +1,44 @@
+ [
+    {
+      "Image1": "/Biomimicry-3/SlideImg/fish.jpg",
+      "Image2": "/Biomimicry-3/SlideImg/flipper.jpg",
+  
+      "firstHeading": "Fish",
+      "SecoundHeading": "Flipper"
+  
+    },
+  
+    {
+      "Image1": "/Biomimicry-3/SlideImg/dog_with_burs.webp",
+      "Image2": "/Biomimicry-3/SlideImg/shoes_with_velcro.webp",
+      "firstHeading": "Animal Fur and Burs",
+      "SecoundHeading": "Velcro"
+  
+    },
+  
+    {
+      "Image1": "/Biomimicry-3/SlideImg/bird.jpg",
+      "Image2": "/Biomimicry-3/SlideImg/buuletTrain.jpg",
+  
+      "firstHeading": "KingFishier ",
+      "SecoundHeading": "Buulet Train"
+  
+    },
+    
+    {
+      "Image1": "/Biomimicry-3/SlideImg/flower (1).jpg",
+      "Image2": "/Biomimicry-3/SlideImg/color.jpg",
+  
+      "firstHeading": "Flower",
+      "SecoundHeading": "paint colors"
+  
+    },
+    {
+      "Image1": "/Biomimicry-3/SlideImg/woodpecker.jpg",
+      "Image2": "/Biomimicry-3/SlideImg/helmet.webp",
+  
+      "firstHeading": "Woodpecker",
+      "SecoundHeading": "Football"
+  
+    }
+  ]

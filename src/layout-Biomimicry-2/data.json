@@ -1,0 +1,35 @@
+[
+    {
+      "Image1": "/Biomimicry-2/SlideImg/catimg.jpg",
+      "Image2": "/Biomimicry-2/SlideImg/red-shoes.jpg",
+  
+     "firstHeading": "Cat",
+      "SecoundHeading": "Shoes"
+  
+    },
+  
+    {
+      "Image1": "/Biomimicry-2/SlideImg/black-spider-camp.jpg",
+      "Image2": "/Biomimicry-2/SlideImg/umbrela2.jpg",
+     "firstHeading": "Spider web",
+      "SecoundHeading": "Umbrella"
+  
+    },
+  
+    {
+      "Image1": "/Biomimicry-2/SlideImg/red-squirrel.jpg",
+      "Image2": "/Biomimicry-2/SlideImg/shocs.jpg",
+  
+     "firstHeading": "Squirrel feet ",
+      "SecoundHeading": "Socks "
+  
+    },
+     {
+      "Image1": "/Biomimicry-2/SlideImg/froge.jpg",
+      "Image2": "/Biomimicry-2/SlideImg/stick.jpg",
+  
+     "firstHeading": "Frog",
+      "SecoundHeading": "Stick "
+  
+    }
+  ]

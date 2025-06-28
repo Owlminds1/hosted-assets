@@ -187,5 +187,36 @@
     
     {
         "page": "mood-meter"
+    },
+    
+    {
+        "page": "Biomimicry"
+    },
+    {
+        "page": "Biomimicry-2"
+    },
+    
+    {
+        "page": "Imaginarium"
+    },
+    
+    {
+        "page": "Would-you-rather"
+    },
+    {
+        "page": "Would-you-rather-2"
+    }, {
+        "page": "audio-recorder"
+    },
+      {
+        "page": "todo-task"
+    },
+    
+    {
+        "page": "positive-and-negative-impact"
+    },
+    
+    {
+        "page": "table-manners"
     }
 ]
