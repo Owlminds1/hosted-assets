@@ -1,0 +1,22 @@
+[
+    {
+        "id":1,
+        "Text":"My Thoughts",
+        "name":"My_Thoughts",
+        "placeHolder":"Enter Your Thoughts"
+
+        
+    },
+    {
+        "id":2,
+        "Text":"My Feelings",
+        "name":"My_Feelings",
+        "placeHolder":"Enter Your Feelings"
+    },
+    {
+        "id":3,
+        "Text":"My Actions",
+         "name":"My_Actions",
+         "placeHolder":"Enter Your Actions"
+    }
+]

@@ -1,0 +1,93 @@
+[
+    {
+      "id": "1",
+      "title": "Recognize",
+      "questions": [
+        {
+          "question": "How is the character feeling?",
+          "name": "feeling",
+          "placeholder": "How is the character feeling?"
+        },
+        {
+          "question": "How do you know he/she is feeling that way?",
+          "name": "reasonFeeling",
+          "placeholder": "How do you know he/she is feeling that way?"
+        }
+      ],
+      "bgcolor": "#E3F2FD"
+    },
+    {
+      "id": "2",
+      "title": "Understand",
+      "questions": [
+        {
+          "question": "What happened that made the character feel ___________?",
+          "name": "whatHappened",
+           "placeholder": "How is the character feeling?"
+        },
+        {
+          "question": "What happens that makes you feel ___________?",
+          "name": "whatMakesYouFeel",
+            "placeholder": "How do you know he/she is feeling that way?"
+        }
+      ],
+      "bgcolor": "#FFEB3B"
+    },
+    {
+      "id": "3",
+      "title": "Label",
+      "questions": [
+        {
+          "question": "Where would you put this character on the mood meter?",
+          "name": "moodMeterPosition",
+           "placeholder": "How is the character feeling?"
+        },
+        {
+          "question": "What is the name of this feeling?",
+          "name": "feelingName",
+           "placeholder": "How do you know he/she is feeling that way?"
+          
+        }
+      ],
+      "bgcolor": "#C8E6C9"
+    },
+    {
+      "id": "4",
+      "title": "Express",
+      "questions": [
+        {
+          "question": "How did the character act when he/she was feeling ___________?",
+          "name": "characterAction",
+           "placeholder": "How is the character feeling?"
+        },
+        {
+          "question": "What else can you do when you are feeling ___________?",
+          "name": "yourAction",
+          "placeholder": "How do you know he/she is feeling that way?"
+        }
+      ],
+      "bgcolor": "#FFE0B2"
+    },
+    {
+      "id": "5",
+      "title": "Regulate",
+      "questions": [
+        {
+          "question": "What did the character do when he/she felt ___________?",
+          "name": "characterRegulation",
+          "placeholder": "How is the character feeling?"
+        },
+        {
+          "question": "What could you do to help a friend who is feeling ___________?",
+          "name": "helpFriend",
+           "placeholder": "How is the your friends feeling?"
+        },
+        {
+          "question": "When you feel ___________ , what do you do?",
+          "name": "personalRegulation",
+          "placeholder": "How do you know he/she is feeling that way?"
+        }
+      ],
+      "bgcolor": "#E1BEE7"
+    }
+  ]

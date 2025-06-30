@@ -1,0 +1,43 @@
+[
+    {
+      "text": "Furious",
+      "image": "/weather-forecast/images/Furious.png",
+     "placeholder":"Describe when you feel Furious...",
+     "placeholder2":"How can others tell when you feel Furious...",
+     "name":"myFirst",
+     "name2":"othersFirst"
+    },
+    {
+      "text": "Angry",
+      "image": "/weather-forecast/images/Angry.png",
+     "placeholder":"Describe when you feel Angry...",
+     "placeholder2":"How can others tell when you feel Angry...",
+     "name":"mySecound",
+     "name2":"othersSecound"
+    },
+    {
+      "text": "Frustrated",
+      "image": "/weather-forecast/images/Frustrated.png",
+     "placeholder":"Describe when you feel Frustrated...",
+     "placeholder2":"How can others tell when you feel Frustrated...",
+      "name":"myThird",
+      "name2":"othersThird"
+      
+    },
+    {
+      "text": "Bothered",
+      "image": "/weather-forecast/images/Bothered.png",
+     "placeholder":"Describe when you feel Bothered...",
+     "placeholder2":"How can others tell when you feel Bothered...",
+      "name":"myFour",
+       "name2":"othersFour"
+    },
+    {
+      "text": "Calm",
+      "image": "/weather-forecast/images/Calm.png",
+     "placeholder":"Describe when you feel Calm...",
+     "placeholder2":"How can others tell when you feel Calm...",
+     "name":"myFive",
+      "name2":"othersFive"
+    }
+  ]

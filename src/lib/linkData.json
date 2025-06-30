@@ -175,47 +175,40 @@
     },
     {
         "page": "task-sorting-puzzle-4"
-    } ,
-    
+    },
     {
         "page": "task-sorting-puzzle-5"
     },
-    
     {
         "page": "emotion-games"
-    } ,
-    
+    },
     {
         "page": "mood-meter"
     },
-    
     {
         "page": "Biomimicry"
     },
     {
         "page": "Biomimicry-2"
     },
-    
     {
         "page": "Imaginarium"
     },
-    
     {
         "page": "Would-you-rather"
     },
     {
         "page": "Would-you-rather-2"
-    }, {
+    },
+    {
         "page": "audio-recorder"
     },
-      {
+    {
         "page": "todo-task"
     },
-    
     {
         "page": "positive-and-negative-impact"
     },
-    
     {
         "page": "table-manners"
     },
@@ -227,10 +220,39 @@
     },
     {
         "page": "what-will-happen-if"
-    }, {
+    },
+    {
         "page": "answer-the-questions-to-describe"
     },
     {
         "page": "anxious-thoughts"
+    },
+    {
+        "page": "character-emotions-and-responses"
+    },
+    {
+        "page": "character-emotions-and-responses-2"
+    },
+    {
+        "page": "character-emotions-and-responses-3"
+    },
+    {
+        "page": "character-emotions-and-responses-4"
+    },
+    {
+        "page": "event-and-consider"
+    },
+    {
+        "page": "plan-birthday-party"
+    },
+     {
+        "page": "plan-your-picnic"
+    },
+    {
+        "page": "thought-image-scenario"
+    },
+    
+    {
+        "page": "weather-forecast-of-emotions"
     }
 ]

@@ -1,0 +1,26 @@
+[
+    {
+        "id": "1",
+        "title": "I Notice:",
+        "questions":"How your body feels — how do you feel inside your body? ",
+        "example":"(e.g. Louie’s body felt a little shaky, and he was breathing harder.)",
+        "bgcolor": "#E3F2FD",
+        "name":"I_Notice"
+    },
+    {
+        "id": "2",
+        "title": "I Feel:",
+        "questions":"Use a “feeling word” to name the feeling.",
+        "example":"(e.g. Louie names his feeling: Frustration. He also describes what’s happening that’s making him feel that way.)",
+        "bgcolor": "#FFEB3B",
+        "name":"I_Feel"
+    },
+    {
+        "id": "3",
+        "title": "I Can: ",
+        "questions":"Choose something that might help you manage the feeling.",
+        "example":"(e.g. Louie names his feeling: Frustration. He also describes what’s happening that’s making him feel that way.)",
+        "bgcolor": "#C8E6C9",
+        "name":"I_Can"
+    }
+]

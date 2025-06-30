@@ -13,7 +13,7 @@ const page = () => {
         <div className="col-span-6 min-w-[500px] font-bold border border-black bg-purple-500 py-1 px-4 rounded-lg">
           Activity Name
         </div>
-        <div className="col-span-3 w-full min-w-[280px] border font-bold  border-black bg-purple-500 py-1 px-4 rounded-lg">
+        <div className="col-span-3 w-full min-w-[300px] border font-bold  border-black bg-purple-500 py-1 px-4 rounded-lg">
           Activity Link
         </div>
       </div>
@@ -27,7 +27,7 @@ const page = () => {
           <div  className="col-span-6 min-w-[500px] border border-black bg-red-400 py-1 px-4 rounded-lg">
             {`Activity ${index + 1}`}
           </div>
-          <div className="col-span-3  min-w-[280px] w-full border text-black border-black bg-red-400 py-1 px-4 rounded-lg">
+          <div className="col-span-3  min-w-[300px] w-full border text-black border-black bg-red-400 py-1 px-4 rounded-lg">
           <Link  href={`/${item.page}`}>{item.page}</Link>
           </div>
         </div>
