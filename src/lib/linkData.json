@@ -150,6 +150,9 @@
         "page": "C2-L2-A1"
     },
     {
+        "page": "reward-chart"
+    },
+    {
         "page": "reward-todo-chart-2"
     },
     {
@@ -181,6 +184,9 @@
     },
     {
         "page": "emotion-games"
+    },
+     {
+        "page": "quiz-emotions"
     },
     {
         "page": "mood-meter"
@@ -245,13 +251,12 @@
     {
         "page": "plan-birthday-party"
     },
-     {
+    {
         "page": "plan-your-picnic"
     },
     {
         "page": "thought-image-scenario"
     },
-    
     {
         "page": "weather-forecast-of-emotions"
     }

@@ -1,0 +1,53 @@
+[
+    {
+        "qustionId":1,
+        "bgImage":"/quiz-emotions/images/bg/first_bg.jpg",
+        "mainImage":"/quiz-emotions/images/girl.jpg",
+        "text":"The girl accidentally fell because the chair got broken. How did she feel ?",
+        "answer":"sad",
+        "voice":"/quiz-emotions/sound/first_audio.mp3"
+    },
+    {
+        "qustionId":2,
+        "bgImage":"/quiz-emotions/images/bg/secound_bg.jpg",
+        "mainImage":"/quiz-emotions/images/birthday_boy.png",
+        "text":"Ben got a gift for his birthday. How do you think ben feels ?",
+        "answer":"happy",
+        "voice":"/quiz-emotions/sound/secound_audio.mp3"
+    },
+    {
+        "qustionId":3,
+        "bgImage":"/quiz-emotions/images/bg/third_bg.jpg",
+        "mainImage":"/quiz-emotions/images/spider.jpg",
+        "text":"Maria does not like spiders. while playing, she saw one hanging from the ceiling. How do you think maria feels ?",
+        "answer":"scared",
+        "voice":"/quiz-emotions/sound/third_voice.mp3"
+       
+    },
+    {
+        "qustionId":4,
+        "bgImage":"/quiz-emotions/images/bg/fourth_bg.jpg",
+        "mainImage":"/quiz-emotions/images/cookies.webp",
+        "text":"Tom ate cookies before dinner even when his mom told him not to. How will his mom feel ? ",
+        "answer":"angry",
+        "voice":"/quiz-emotions/sound/fourth_audio.mp3"
+    },
+    {
+        "qustionId":5,
+        "bgImage":"/quiz-emotions/images/bg/five_bg.jpg",
+        "mainImage":"/quiz-emotions/images/ice_cream.jpeg",
+        "text":"Anna dropped her ice cream on the floor. How do you think she feels ?",
+        "answer":"sad",
+        "voice":"/quiz-emotions/sound/fifth_audio.mp3"
+    },
+    {
+        "qustionId":6,
+        "bgImage":"/quiz-emotions/images/bg/sixeth_bg.jpg",
+        "mainImage":"/quiz-emotions/images/bad_dream.jpg",
+        "text":"Rommel woke up from a bad dream. What do you think is he feeling ?",
+        "answer":"scared",
+        "voice":"/quiz-emotions/sound/sixeth_audio.mp3"
+    }
+]
+
+

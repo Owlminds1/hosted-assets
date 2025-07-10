@@ -1,0 +1,26 @@
+[
+    {
+        "qustionId":1,
+        "emojis":"/quiz-emotions/emojis/sad.png",
+        "emotion":"Sad",
+        "value": "sad"
+    },
+    {
+        "qustionId":2,
+        "emojis":"/quiz-emotions/emojis/angry.png",
+        "emotion":"Angry",
+         "value": "angry"
+    },
+    {
+        "qustionId":3,
+        "emojis":"/quiz-emotions/emojis/scared.png",
+        "emotion":"Scared",
+         "value": "scared"
+    },
+    {
+        "qustionId":4,
+        "emojis":"/quiz-emotions/emojis/happy.png",
+        "emotion":"Happy",
+         "value": "happy"
+    }
+]
