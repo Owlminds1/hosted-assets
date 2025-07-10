@@ -265,5 +265,9 @@
     },
      {
         "page": "tic-tac-toe"
+    },
+    
+    {
+        "page": "lemonade-stand"
     }
 ]
