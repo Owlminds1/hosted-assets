@@ -1,0 +1,12 @@
+[
+    { "name": "Angry", "type": "high-unpleasant" },
+    { "name": "Mad", "type": "high-unpleasant" },
+    { "name": "Happy", "type": "high-pleasant" },
+    { "name": "Excited", "type": "high-pleasant" },
+    { "name": "Sad", "type": "low-unpleasant" },
+    { "name": "Worrying", "type": "low-unpleasant" },
+    { "name": "Disgust", "type": "low-unpleasant" },
+    { "name": "Calm", "type": "low-pleasant" },
+    { "name": "Good", "type": "low-pleasant" },
+    { "name": "Relaxed", "type": "low-pleasant" }
+  ]

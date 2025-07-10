@@ -1,0 +1,6 @@
+[
+  {  "text":"HIGH ENERGY UNPLEASANT","option":"high-unpleasant","bgColor" :"#FF4D4D"},
+  {  "text":"HIGH ENERGY PLEASANT" ,"option":"high-pleasant","bgColor" :"#FDDA0D"},
+  {  "text":"LOW ENERGY UNPLEASANT","option":"low-unpleasant","bgColor" :"#89CFF0"},
+  {  "text":"LOW ENERGY PLEASANT","option":"low-pleasant","bgColor" :"#50C878"}
+]

@@ -189,6 +189,9 @@
         "page": "quiz-emotions"
     },
     {
+        "page": "mood-meter-2"
+    },
+     {
         "page": "mood-meter"
     },
     {
@@ -259,5 +262,8 @@
     },
     {
         "page": "weather-forecast-of-emotions"
+    },
+     {
+        "page": "tic-tac-toe"
     }
 ]
