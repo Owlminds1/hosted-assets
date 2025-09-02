@@ -29,6 +29,7 @@
     "react-hook-form": "^7.59.0",
     "react-icons": "^5.5.0",
     "react-media-recorder": "^1.7.1",
+    "react-use": "^17.6.0",
     "recharts": "2.15.4",
     "swiper": "^11.2.9",
     "tailwind-merge": "^3.3.1",
