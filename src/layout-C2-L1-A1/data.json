@@ -1,0 +1,33 @@
+[
+
+    {
+        "text":"When we feel fierce and want to break barriers, we feel",
+        "val":"ANGER"
+    },
+    
+    
+    {
+        "text":"When we notice something wrong, we feel",
+        "val":"DISGUST"
+    },
+    
+    {
+        "text":"When we feel stressed about something being at risk, we feel",
+        "val":"FEAR"
+    },
+    
+    {
+        "text":"When we feel like love is not around, we feel",
+        "val":"SAD"
+    },
+    
+    {
+        "text":"When something new happens in a good way, we feel",
+        "val":"SURPRISED"
+    },
+    
+    {
+        "text":"When we feel positive energy and life is going well, we feel",
+        "val":"HAPPY"
+    }
+]

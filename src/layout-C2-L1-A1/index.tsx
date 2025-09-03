@@ -1,0 +1,164 @@
+"use client";
+import React, { useEffect, useRef, useState } from "react";
+import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
+import { Swiper, SwiperClass, SwiperSlide } from "swiper/react";
+import { Navigation } from "swiper/modules";
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+import "swiper/css/scrollbar";
+
+import Data from "@/layout-C2-L1-A1/data.json";
+import ImageData from "@/layout-C2-L1-A1/answer.json";
+import Image from "next/image";
+const Confetti = dynamic(() => import("react-confetti"), {
+  ssr: false,
+});
+import { useWindowSize } from "react-use";
+import dynamic from "next/dynamic";
+
+import "@/layout-C2-L1-A1/shak.css"
+
+const LayoutC2L1A1 = () => {
+      const { width, height } = useWindowSize();
+  const [activeSlide, setActiveSlide] = useState(0);
+  const swiperRef = useRef<SwiperClass | null>(null);
+  const [showBtn, setShowBtn] = useState(false);
+  const [answers, setAnswers] = useState<string[]>(Array(Data.length).fill(""));
+  const [isCorrect,setIsCorrect]=useState<HTMLAudioElement>();
+  const [isWrong,setIsWrong]=useState<HTMLAudioElement>();
+  const [crowdSound,setCrowdSound]=useState<HTMLAudioElement>()
+  const [correctIndex, setCorrectIndex] = useState<number[]>([]);
+const [wrongIndex, setWrongIndex] = useState<number | null>(null);
+  useEffect(()=>{
+    setIsCorrect(new Audio("/audio/correct.mp3"))
+    setIsWrong(new Audio("/audio/wrong_buzzer.mp3"))
+    setCrowdSound(new Audio("/audio/crowd.mp3"))
+  },[])
+
+  const handlePrev = () => {
+    swiperRef?.current?.slidePrev();
+  };
+
+  const handleNext = () => {
+    swiperRef?.current?.slideNext();
+  };
+  const handleSlideChange = (swiper: SwiperClass) => {
+    setActiveSlide(swiper.activeIndex);
+    if (typeof window !== "undefined") {
+      window.scrollTo(0, 0);
+    }
+    setShowBtn(false);
+      crowdSound?.pause();
+  };
+
+  
+
+const handleCheck = (answer: string, val: string, index: number, imgIndex: number) => {
+  if (val === answer) {
+    setCorrectIndex((prev) => [...prev, imgIndex]);
+    const newAnswer = [...answers];
+    newAnswer[index] = answer;
+    setAnswers(newAnswer);
+
+    isCorrect?.play();
+    setShowBtn(true);
+    crowdSound?.play();
+
+    setTimeout(() => {
+      crowdSound?.pause();
+    }, 5000);
+  } else {
+    isWrong?.play();
+    setWrongIndex(imgIndex);
+
+    // shake + red border remove after animation
+    setTimeout(() => {
+      setWrongIndex(null);
+    }, 600);
+  }
+};
+
+
+  return (
+    <div className="min-h-screen bg-[#F8FCFA] flex justify-center items-center gap-5 flex-col p-5 ">
+      <div>
+        <h1 className="text-2xl font-bold text-center">Understand Emotions</h1>
+        <p className="text-xl my-3 font-medium text-center">
+          Guess the Emotion!
+        </p>
+      </div>
+      <div className="w-[60%]  flex justify-center items-center flex-col">
+        <div className=" w-full shadow-lg  rounded-lg ">
+          <Swiper
+            autoHeight={true}
+            loop={false}
+            allowTouchMove={false}
+            autoplay={false}
+            modules={[Navigation]}
+            slidesPerView={1}
+            // navigation
+            onSwiper={(swiper) => (swiperRef.current = swiper)}
+            onSlideChange={handleSlideChange}
+          >
+            {Data.map((item, index) => (
+              <SwiperSlide key={index}>
+                <div className="min-h-[350px] p-5  flex justify-start items-center gap-8 flex-col">
+                  <h3 className="text-xl font-bold text-black ">
+                    {item.text} {  answers[index] ? <span className="text-violet-900 border-b border-black ">{ answers[index]} </span>: "________"}
+                  </h3>
+                  <div className="grid grid-cols-12 place-items-center gap-1">
+                    {ImageData.map((i, imgIndex) => (
+<div
+  key={imgIndex}
+  onClick={() => handleCheck(i.ans, item.val, index, imgIndex)}
+  className={`
+    col-span-4 active:scale-95 transition-all duration-300 active:shadow-lg  
+    w-[100px] h-[100px] relative rounded-lg overflow-hidden
+    ${correctIndex.includes(imgIndex) && item.val === i.ans ? "border-4 border-green-500" : ""}
+    ${wrongIndex === imgIndex ? "border-4 border-red-500 shake" : ""}
+  `}
+>
+  <Image
+    className="hover:scale-105 cursor-pointer transition-all duration-300"
+    src={i.image}
+    fill
+    alt={i.ans}
+  />
+</div>
+
+                    ))}
+                  </div>
+                </div>
+              </SwiperSlide>
+            ))}
+          </Swiper>
+        </div>
+
+        {/* slide buttons  */}
+        <div className="flex justify-between items-center gap-5 w-full mt-8  ">
+          <span
+            onClick={handlePrev}
+            className={`${
+              activeSlide === 0 ? "invisible" : "visible"
+            }  cursor-pointer text-4xl border border-black rounded-full p-3  bg-yellow-400`}
+          >
+            <FaArrowLeft />
+          </span>
+          <span
+            onClick={handleNext}
+            className={` ${
+              activeSlide < 5 && showBtn ? "visible" : "invisible"
+            }  cursor-pointer text-4xl border border-black rounded-full p-3  bg-yellow-400`}
+          >
+            <FaArrowRight />
+          </span>
+        </div>
+      </div>
+
+      {showBtn ? <Confetti width={width} height={height}/> :""}
+    </div>
+  );
+};
+
+export default LayoutC2L1A1;
