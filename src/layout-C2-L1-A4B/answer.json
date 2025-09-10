@@ -1,0 +1,21 @@
+[
+    {
+        "image":"/C2Images/sad.png",
+        "ans":"Sad"
+    },
+    
+    {
+        "image":"/C2Images/Anger.png",
+        "ans":"Angry"
+    },
+    
+    {
+        "image":"/C2Images/fear.png",
+        "ans":"Scared"
+    },
+    
+    {
+        "image":"/C2Images/happy.png",
+        "ans":"Happy"
+    }
+]
