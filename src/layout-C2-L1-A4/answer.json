@@ -1,0 +1,52 @@
+[
+    {
+        "title":"Recognize",
+        "image":"/C2Images/Recognize.jpg",
+        "question":"How am I feeling?",
+        "val":[
+            "Posture","Energy level","Breathing","Heart rate"
+        ],
+        "text":"These identifications help us to estimate the levels of pleasantness and energy."
+
+    },
+    
+    {
+        "title":"Understand",
+        "image":"/C2Images/Understand.jpg",
+        "question":"What happened that led me to feel this way?",
+        "val":[
+            "People","Thoughts","Events"
+        ],
+        "text":"Understanding the impact of these causes on the way you feel can help us prepare our responses."
+    },
+
+    {
+        "title":"Label",
+        "image":"/C2Images/Identify.jpg",
+        "question":"What word best describes how I am feeling?",
+        "val":[
+            "Learn the emotions vocabulary to pinpoint emotions accurately","Communicate effectively",
+        "Identify appropriate regulation strategies"        ],
+        "text":"Understanding how to name feelings can help you feel more confident in explaining emotions!"
+    },
+    
+    {
+        "title":"Express",
+        "image":"/C2Images/Express.jpg",
+        "question":"How can I express appropriately what I am feeling for this time and place?",
+        "val":[
+            "Who we are with","Where we are",
+    "What we are doing"      ],
+    "text":"Expressing appropriately can help us feel secure in the presence of others!"
+    },
+
+    {
+        "title":"Regulate",
+        "image":"/C2Images/Regulate.jpg",
+        "question":"What can I do to maintain my feeling (if I want to continue feeling this way) or shift my feeling (if I do not want to continue feeling this way)?",
+        "val":[
+               "Knowing and using effective strategies to manage our emotions"    ],
+
+               "text":"Understanding how to regulate feelings can help better manage our emotions!"
+    }
+]

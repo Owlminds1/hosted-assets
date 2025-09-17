@@ -8,8 +8,8 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 
-import Data from "@/layout-C2-L1-A1/data.json";
-import ImageData from "@/layout-C2-L1-A1/answer.json";
+import Data from "@/layout-C2-L1-AA/data.json";
+import ImageData from "@/layout-C2-L1-AA/answer.json";
 import Image from "next/image";
 const Confetti = dynamic(() => import("react-confetti"), {
   ssr: false,
@@ -19,7 +19,7 @@ import dynamic from "next/dynamic";
 
 import "@/layout-C2-L1-A1/shak.css"
 
-const LayoutC2L1A1 = () => {
+const LayoutC2L1AA = () => {
       const { width, height } = useWindowSize();
   const [activeSlide, setActiveSlide] = useState(0);
   const swiperRef = useRef<SwiperClass | null>(null);
@@ -47,8 +47,9 @@ const [wrongIndex, setWrongIndex] = useState<number | null>(null);
       window.scrollTo(0, 0);
     }
     setShowBtn(false);
-      setCorrectIndex([])
+    setCorrectIndex([])
     setWrongIndex(null)
+
   };
 
   
@@ -77,12 +78,12 @@ const handleCheck = (answer: string, val: string, index: number, imgIndex: numbe
   return (
     <div className="min-h-screen bg-[#F8FCFA] flex justify-center items-center gap-5 flex-col p-5 ">
       <div>
-        <h1 className="text-2xl font-bold text-center">Understand Emotions</h1>
-        <p className="text-xl my-3 font-medium text-center">
-          Guess the Emotion!
+        <h1 className="text-3xl font-bold text-center">Guess Emotions</h1>
+        <p className="text-lg my-3 font-medium text-center">
+        Are you emotionally smart? Guess what emotion by selecting the correct label.
         </p>
       </div>
-      <div className="w-[60%]  flex justify-center items-center flex-col">
+      <div className="w-[80%]  flex justify-center items-center flex-col">
         <div className=" w-full shadow-lg  rounded-lg ">
           <Swiper
             autoHeight={true}
@@ -98,7 +99,7 @@ const handleCheck = (answer: string, val: string, index: number, imgIndex: numbe
             {Data.map((item, index) => (
               <SwiperSlide key={index}>
                 <div className="min-h-[350px] p-5  flex justify-start items-center gap-8 flex-col">
-                  <h3 className="text-xl font-bold text-black ">
+                  <h3 className="text-xl font-bold text-black w-[80%] text-center ">
                     {item.text} {  answers[index] ? <span className="text-green-600 border-b border-black ">{ answers[index]} </span>: "________"}
                   </h3>
                   <div className="grid grid-cols-12 place-items-center gap-1">
@@ -107,7 +108,7 @@ const handleCheck = (answer: string, val: string, index: number, imgIndex: numbe
   key={imgIndex}
   onClick={() => handleCheck(i.ans, item.val, index, imgIndex)}
   className={`
-    col-span-4 active:scale-95 transition-all duration-300 active:shadow-lg  
+    col-span-6 active:scale-95 transition-all duration-300 active:shadow-lg  
     w-[100px] h-[100px] relative rounded-lg overflow-hidden
     ${correctIndex.includes(imgIndex) && item.val === i.ans ? "border-4 border-green-500" : ""}
     ${wrongIndex === imgIndex ? "border-4 border-red-500 shake" : ""}
@@ -155,4 +156,4 @@ const handleCheck = (answer: string, val: string, index: number, imgIndex: numbe
   );
 };
 
-export default LayoutC2L1A1;
+export default LayoutC2L1AA;

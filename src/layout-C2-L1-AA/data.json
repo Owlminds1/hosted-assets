@@ -1,0 +1,43 @@
+[
+
+    {
+        "text":"Mia accidentally tripped while coming down the stairs. How did she feel?",
+        "val":"Sad"
+    },
+    
+    
+    {
+        "text":"Dan has colorful birthday gifts piled on the table. How do you think Dan feels?",
+        "val":"Happy"
+    },
+    
+    {
+        "text":"While playing, Liz froze when she noticed a spider dangling from the ceiling. How do you think Liz feels ?",
+        "val":"Scared"
+    },
+    
+    {
+        "text":"Alex ate chips before dinner even when his mom told him not to. How will his mom feel ?",
+        "val":"Angry"
+    },
+    
+    {
+        "text":"An ice cream cone slipped  from Anna’s hand and fell on the sidewalk. How do you think she feels ?",
+        "val":"Sad"
+    },
+    
+    {
+        "text":"Ron woke up from a bad dream. What do you think he is feeling?",
+        "val":"Scared"
+    },
+    
+    {
+        "text":"Sam’s brother insisted on playing one more game. Now he gets a timeout for exceeding his screen time. How do you think Sam feels?",
+        "val":"Angry"
+    },
+    
+    {
+        "text":"Li plays at the arcade with his cousins.",
+        "val":"Happy"
+    }
+]
