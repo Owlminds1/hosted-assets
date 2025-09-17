@@ -1,6 +1,6 @@
 "use client";
 import React, { useState } from "react";
-import Quadrantsdata from "@/layout-task-sorting-puzzle-5/quadrantsData.json";
+import Quadrantsdata from "@/layout-task-sorting-puzzle-5/quadrantsdata.json";
 import taskData from "@/layout-task-sorting-puzzle-5/taskData.json";
 
 interface Quadrant {
