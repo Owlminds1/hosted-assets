@@ -159,13 +159,13 @@ const LayoutC2L1A4 = () => {
                     {/* Left side MasterList */}
                     {filteredList.length > 0 && (
                       <div
-                        className={`col-span-4 flex flex-wrap gap-2 justify-center ${wrongShake}`}
+                        className={`col-span-4 flex flex-col gap-2 justify-center ${wrongShake}`}
                       >
                         {filteredList.map((val, MasterIndex) => (
                           <h3
                             key={MasterIndex}
                             onClick={() => handleCheck(val, index)}
-                            className="text-sm px-2 py-1 rounded-lg border text-center cursor-pointer transition hover:bg-violet-200"
+                            className="text-sm px-2 py-1 font-medium rounded-lg border text-center cursor-pointer transition hover:bg-violet-200"
                           >
                             {val}
                           </h3>

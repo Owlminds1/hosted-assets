@@ -76,14 +76,14 @@ const handleCheck = (answer: string, val: string, index: number, imgIndex: numbe
 
 
   return (
-    <div className="min-h-screen bg-[#F8FCFA] flex justify-center items-center gap-5 flex-col p-5 ">
+<div className="min-h-screen bg-[#F8FCFA] flex justify-center items-center gap-5 flex-col p-5 overflow-hidden">
       <div>
         <h1 className="text-3xl font-bold text-center">Guess Emotions</h1>
         <p className="text-lg my-3 font-medium text-center">
         Are you emotionally smart? Guess what emotion by selecting the correct label.
         </p>
       </div>
-      <div className="w-[80%]  flex justify-center items-center flex-col">
+      <div className="w-[70%]  flex justify-center items-center flex-col">
         <div className=" w-full shadow-lg  rounded-lg ">
           <Swiper
             autoHeight={true}
@@ -98,11 +98,17 @@ const handleCheck = (answer: string, val: string, index: number, imgIndex: numbe
           >
             {Data.map((item, index) => (
               <SwiperSlide key={index}>
-                <div className="min-h-[350px] p-5  flex justify-start items-center gap-8 flex-col">
+                <div className="min-h-[350px] p-5  grid grid-cols-12 w-full">
+                  <div className="col-span-8 bg-violet-100 rounded-lg w-full flex flex-col gap-5 justify-center items-center">
+                    <div className="w-[300px] h-[300px] relative overflow-hidden">
+                                          <Image src={item.images} fill alt="C2images"  className="rounded-lg object-contain"/>
+                    </div>
                   <h3 className="text-xl font-bold text-black w-[80%] text-center ">
                     {item.text} {  answers[index] ? <span className="text-green-600 border-b border-black ">{ answers[index]} </span>: "________"}
                   </h3>
-                  <div className="grid grid-cols-12 place-items-center gap-1">
+
+                  </div>
+                  <div className="col-span-4 w-full flex flex-col gap-2 justify-center items-center">
                     {ImageData.map((i, imgIndex) => (
 <div
   key={imgIndex}
@@ -151,7 +157,21 @@ const handleCheck = (answer: string, val: string, index: number, imgIndex: numbe
         </div>
       </div>
 
-      {showBtn ? <Confetti width={width} height={height}/> :""}
+     {showBtn ? (
+  <Confetti
+    width={width}
+    height={height}
+    style={{
+      position: "fixed",
+      top: 0,
+      left: 0,
+      width: "100%",
+      height: "100%",
+      overflow: "hidden",
+    }}
+  />
+) : ""}
+
     </div>
   );
 };

@@ -2,42 +2,50 @@
 
     {
         "text":"Mia accidentally tripped while coming down the stairs. How did she feel?",
-        "val":"Sad"
+        "val":"Sad",
+        "images":"/C2Images/stairs.png"
     },
     
     
     {
         "text":"Dan has colorful birthday gifts piled on the table. How do you think Dan feels?",
-        "val":"Happy"
+        "val":"Happy",
+        "images":"/C2Images/birthday.png"
     },
     
     {
         "text":"While playing, Liz froze when she noticed a spider dangling from the ceiling. How do you think Liz feels ?",
-        "val":"Scared"
+        "val":"Scared",
+        "images":"/C2Images/spider.png"
     },
     
     {
         "text":"Alex ate chips before dinner even when his mom told him not to. How will his mom feel ?",
-        "val":"Angry"
+        "val":"Angry",
+        "images":"/C2Images/chips.png"
     },
     
     {
         "text":"An ice cream cone slipped  from Anna’s hand and fell on the sidewalk. How do you think she feels ?",
-        "val":"Sad"
+        "val":"Sad",
+        "images":"/C2Images/icecream.png"
     },
     
     {
         "text":"Ron woke up from a bad dream. What do you think he is feeling?",
-        "val":"Scared"
+        "val":"Scared",
+        "images":"/C2Images/dream.png"
     },
     
     {
         "text":"Sam’s brother insisted on playing one more game. Now he gets a timeout for exceeding his screen time. How do you think Sam feels?",
-        "val":"Angry"
+        "val":"Angry",
+        "images":"/C2Images/timeout.png"
     },
     
     {
         "text":"Li plays at the arcade with his cousins.",
-        "val":"Happy"
+        "val":"Happy",
+        "images":"/C2Images/arcade.png"
     }
 ]
