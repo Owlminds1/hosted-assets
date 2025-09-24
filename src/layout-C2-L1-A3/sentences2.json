@@ -1,18 +1,18 @@
 [
   {
     "text": "Your parents speak you listen (listen, listen, listen)",
-    "img": "/C2Images/repet_Word2.jpg"
+    "img": "/C2Images/listen.png"
   },
   {
     "text": "Your friends play you watch (watch, watch, watch)",
-    "img": "/C2Images/repet_Word2.jpg"
+    "img": "/C2Images/watch_1.png"
   },
   {
     "text": "Your siblings do homework you read (read, read, read)",
-    "img": "/C2Images/repet_Word2.jpg"
+    "img": "/C2Images/read.png"
   },
   {
     "text": "Your teacher gives you advice, you shout (shout, shout, shout)",
-    "img": "/C2Images/repet_Word2.jpg"
+    "img": "/C2Images/shout_1.png"
   }
 ]

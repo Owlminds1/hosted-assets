@@ -1,18 +1,18 @@
 [
   {
     "text": "You slice fruits with a knife. (knife, knife, knife)",
-    "img": "/C2Images/repet_Word1.jpg"
+    "img": "/C2Images/slice.png"
   },
   {
     "text": "You place food on a plate. (plate, plate, plate)",
-    "img": "/C2Images/repet_Word1.jpg"
+    "img": "/C2Images/food-on-plate.png"
   },
   {
     "text": "You do your homework on time. (time, time, time)",
-    "img": "/C2Images/repet_Word1.jpg"
+    "img": "/C2Images/on-time.png"
   },
   {
     "text": "You don’t get what you want so you cry. (cry, cry, cry)",
-    "img": "/C2Images/repet_Word1.jpg"
+    "img": "/C2Images/cry.png"
   }
 ]
