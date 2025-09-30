@@ -1,9 +1,7 @@
 "use client";
-import React, { useRef, useState } from "react";
+import React, { useRef } from "react";
 import { Navigation } from "swiper/modules";
 import { Swiper, SwiperClass, SwiperSlide } from "swiper/react";
-import { FaArrowRight } from "react-icons/fa6";
-import { FaArrowLeft } from "react-icons/fa6";
 
 // Import Swiper styles
 import "swiper/css";
@@ -13,18 +11,10 @@ import "swiper/css/scrollbar";
 import Image from "next/image";
 
 const Slide = () => {
-  const [activeSlide, setActiveSlide] = useState(0);
   const swiperRef = useRef<SwiperClass | null>(null);
 
-  const handlePrev = () => {
-    swiperRef?.current?.slidePrev();
-  };
-
-  const handleNext = () => {
-    swiperRef?.current?.slideNext();
-  };
-  const handleSlideChange = (swiper: SwiperClass) => {
-    setActiveSlide(swiper.activeIndex);
+  
+  const handleSlideChange = () => {
     window.scrollTo(0, 0);
   };
   return (
@@ -98,7 +88,7 @@ const Slide = () => {
         </div>
 
         {/* slide buttons  */}
-        <div className="flex justify-between items-center gap-5 w-full mt-8  ">
+        {/* <div className="flex justify-between items-center gap-5 w-full mt-8  ">
           <span
             onClick={handlePrev}
             className={`${
@@ -115,7 +105,7 @@ const Slide = () => {
           >
             <FaArrowRight />
           </span>
-        </div>
+        </div> */}
       </div>
     </div>
   );
