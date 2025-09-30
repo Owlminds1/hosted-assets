@@ -24,6 +24,17 @@ const LayoutC2L1A3 = () => {
   const [showSuggestion2, setShowSuggestion2] = useState(false);
   const [showSuggestion3, setShowSuggestion3] = useState(false);
 
+  // calculate total slides dynamically
+const totalSlides =
+  1 + // Intro slide
+  sentences.length +
+  (showSuggestion ? 1 : 0) +
+  sentences2.length +
+  (showSuggestion2 ? 1 : 0) +
+  sentences3.length +
+  (showSuggestion3 ? 1 : 0);
+
+
   const handlePrev = () => {
     swiperRef?.current?.slidePrev();
   };
@@ -269,7 +280,7 @@ const LayoutC2L1A3 = () => {
           <span
             onClick={handleNext}
             className={` ${
-              activeSlide < 14 ? "visible" : "invisible"
+              activeSlide < totalSlides - 1? "visible" : "invisible"
             } cursor-pointer text-4xl border border-black rounded-full p-3 bg-yellow-400`}
           >
             <FaArrowRight />
